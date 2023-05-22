@@ -1,0 +1,169 @@
+body{
+    font-family: 'Fasthand', cursive;
+    font-family: 'Mukta', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 90px;
+}
+p{
+    font-weight: 550;
+    font-size: 20px;
+    color: rgb(233, 174, 10);
+}
+.banner{
+    background-image: url(image/banner/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 1000px;
+}
+.color{
+    color: rgb(245, 233, 176);
+    position: relative;
+    top: 200px;
+    text-align: center;
+}
+.button{
+    background-color: rgb(255, 77, 71);
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 20px 30px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: white;
+}
+.display{
+    display: flex;    
+    justify-content: center;  
+}
+.box{
+    width: 180px;
+    height: 180px;
+    box-shadow: 10px 10px 30px gray;
+    text-align: center;
+    margin: 30px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    font-size: 30px;
+}
+#id{
+    border: 3px solid crimson;
+    background-color: rgb(255, 213, 213);
+    color: crimson;
+    
+}  
+.text-align{
+    position: relative;
+    top: 10px;
+}
+.text{
+    text-align: center;
+    justify-content: center;
+}
+.input{
+    text-align: center;
+}
+.background{
+    width: 550px;
+    height: 350px;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 10px;
+    background-color: rgb(189, 1, 120);
+    margin: auto;
+    text-align: left;
+    padding: 15px;
+}
+.background h3{
+    font-size: 40px;
+}
+.background img{
+    width: 10%;
+}
+.display2{
+    display: flex;
+}
+.display2 div{
+    padding: 50px 30px 20px 10px;
+    margin: 50px 20px 20px 10px;
+}
+.Before{
+    height: 250px;
+    width: 900px;
+    background-color: #FFF8DC;
+    border-radius: 15px; 
+    left: 500px;
+    position: relative;
+}
+input{
+    text-decoration: none;
+    border: 1px solid gray;
+}
+footer {
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    margin: 20px;
+}
+footer h2{
+    color: tomato;
+    font-size: 35px;
+    position: relative;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Pacifico', cursive;
+}
+.account{
+    width: 200px;
+    margin: 0;
+    text-decoration: none;
+    background-color: orangered;
+    padding: 15px 20px;
+    font-weight: 700;
+    color: white; 
+}
+.body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, roboto;
+}
+.overall{
+    position: relative;
+    left: 35%;
+    width: 600px;
+    text-align: center;
+    background: #FFF8DC;
+    padding: 40px;
+}
+.overall h2 {
+    color: #1d455a;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 0%;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+.overall p {
+    font-size: 18px;
+    color: #79868e;
+    margin-top: 0%;
+}
+.overall input{
+    font-size:18px ;
+    width: 60%;
+    border: none;
+    padding:15px 20px ;
+    margin-right: 10px;
+    background: #efefef;
+    outline: none;
+}
+.overall button{
+    color: #fff;
+    border: none;
+    border-radius: 5px ;
+    text-transform:uppercase ;
+    font-size: 18px;
+    padding: 15px 20px;
+    background: #023953;
+}
